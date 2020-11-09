@@ -1,0 +1,11 @@
+Exploitation:
+
+1. Navigate to Forgot Password (bottom of sign in page)
+2. Inspect Element
+3. Find hidden element (inside of 2nd <tr> and 2nd <td> tag)
+4. Erase E-Mail address
+5. Submit
+
+Resolution:
+
+All HTML attributes can be changed in the frontend. Make sure to implement backend protection to avoid any private information being leaked.

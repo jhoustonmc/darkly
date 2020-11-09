@@ -1,0 +1,10 @@
+Exploitation:
+
+1. Navigate to 'Leave A Feedback' (bottom of home page).
+2. Input 'alert' in the Name box. (Message can be left empty).
+3. Submit.
+4. Flag will appear on the screen.
+
+Reolution:
+
+Ensure that server side validation is implemented on all existing forms/inputs/information received from the user

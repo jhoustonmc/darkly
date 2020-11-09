@@ -1,0 +1,7 @@
+Exploitation:
+
+1. Inspect one of the social media icon elements.
+2. Replace the 'href' attribute with 'site'.
+3. Click the changed icon
+
+Resolution: Manage URL redirection from the backend.
