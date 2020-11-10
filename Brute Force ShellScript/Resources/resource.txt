@@ -4,7 +4,7 @@ A brute force attack consists of attacker constantly spamming login details with
 
 Exploitation:
 
-1. Run the shellscript "sh brute.sh", a basic brute force attack(Refer to definition).
+1. Execute the shellscript "sh brute.sh", a basic brute force attack(Refer to definition).
 2. If done correctly, the flag will appear in the terminal
 
 Resolution:

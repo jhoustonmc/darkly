@@ -1,0 +1,11 @@
+Èxploitation:
+
+1. Navigate to the SURVEY page.
+2. Inspect the element of one of the Grade dropdown menus.
+3. Change one of the option values to any number greater than 10.
+4. Choose the edited option.
+5. The flag will appear on the screen.
+
+Resolution:
+
+Make sure to validate any user input in the backend before continuing to execute.

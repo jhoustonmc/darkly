@@ -1,0 +1,8 @@
+Exploitation:
+
+1. Execute the shellscript "sh upload.sh", a script which will upload 'nothing.php' as a jpeg.
+2. The flag will appear in the terminal.
+
+Resolution:
+
+When the user uploads any file, make sure to validate the filetype in the backend.
