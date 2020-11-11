@@ -11,3 +11,7 @@ Exploitation:
     Url :'
 6. Decrypt '1928e8083cf461a51303633093573c46' using MD5 to get the word the word 'albatroz'.
 7. Then hash the word 'albatroz' using sha256 to receive the flag.
+
+Resolution: 
+
+Always run SQL queries using prepared statements.

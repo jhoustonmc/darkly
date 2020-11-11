@@ -1,7 +1,10 @@
 Exploitation:
 
-1. Inspect one of the social media icon elements.
-2. Replace the 'href' attribute with 'site'.
-3. Click the changed icon
+1. Click on the third image.
+2. base64 encode '<script>alert()</script>' (The result will be PHNjcmlwdD5hbGVydCgpPC9zY3JpcHQ+). 
+3. In the url (192.168.40.128/?page=media&src=nsa) replace nsa with 'data:text/html;base64,PHNjcmlwdD5hbGVydCgpPC9zY3JpcHQ+'.
+4. The flag will appear on screen.
 
-Resolution: Manage URL redirection from the backend.
+Resolution:
+
+Do not allow the source of an image to be a variable in the URL.

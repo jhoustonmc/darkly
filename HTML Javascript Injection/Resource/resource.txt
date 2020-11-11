@@ -5,6 +5,6 @@ Exploitation:
 3. Submit.
 4. Flag will appear on the screen.
 
-Reolution:
+Resolution:
 
 Ensure that server side validation is implemented on all existing forms/inputs/information received from the user
