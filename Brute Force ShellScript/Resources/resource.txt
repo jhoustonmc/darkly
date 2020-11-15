@@ -1,6 +1,6 @@
 Definition:
 
-A brute force attack consists of attacker constantly spamming login details with random usernames and passwords in the hopes of finally guessing correctly
+A brute force attack consists of an attacker constantly spamming login details with random usernames and passwords in the hopes of finally guessing correctly
 
 Exploitation:
 
